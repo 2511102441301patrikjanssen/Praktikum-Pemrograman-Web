@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: #3368A0;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
+    font-size: large;
+    padding: 20px;
+    display: block;
+    border: 3px solid #000;
+}
+
+.data-diri {
+    background-color: #66A3BF;
+    padding: 20px;
+    display: block;
+    border: 3px solid #000;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.tentang-saya {
+    background-color: #C8DFDB;
+    padding: 20px;
+    display: block;
+    border: 3px solid #000;
+    margin: 20px;
+}
+
+.media-sosial {
+    background-color: #F2EFE7;
+    padding: 20px;
+    display: inline-block;
+    border: 3px solid #000;
+    margin: 20px;
+}
+
+.website-kampus {
+    background-color: #F2EFE7;
+    padding: 20px;
+    display: inline-block;
+    border: 3px solid #000;
+    margin: 20px;
+}
+
+a {
+    display: inline;
+}
