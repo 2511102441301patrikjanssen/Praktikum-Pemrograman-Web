@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
+
+/* =========================
+   PENGATURAN DASAR
+   ========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #F2EFE7;
+    color: #333333;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   BAGIAN HERO / HEADER
+   ========================= */
+
+.hero {
+    background-color: #3368A0;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.name {
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.bio {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* =========================
+   FOTO PROFIL
+   ========================= */
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 4px solid white;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   TUGAS 1: TENTANG SAYA
+   ========================= */
+
+.about {
+    padding: 30px;
+
+    background-color: #C8DFDB;
+
+    margin: 20px;
+
+    border-radius: 10px;
+}
+
+.about h2 {
+    color: #3368A0;
+
+    margin-bottom: 15px;
+
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.about p {
+    margin-bottom: 12px;
+    color: #333333;
+}
+
+
+/* =========================
+   BAGIAN PORTFOLIO
+   ========================= */
+
+.portfolio {
+    padding: 30px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    color: #3368A0;
+
+    margin-bottom: 25px;
+
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+/* =========================
+   TUGAS 2: FLEXBOX
+   ========================= */
+
+.portfolio-container {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 20px;
+}
+
+
+/* =========================
+   TUGAS 3: CARD PROYEK
+   ========================= */
+
+.card {
+    background-color: #ffffff;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+
+    flex: 1 1 250px;
+
+    max-width: 300px;
+
+    transition: transform 0.3s ease;
+}
+
+.card h3 {
+    color: #3368A0;
+
+    font-size: 19px;
+    font-weight: 600;
+
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #555555;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* Efek saat mouse diarahkan ke card */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* =========================
+   BAGIAN FOOTER
+   ========================= */
+
+footer {
+    background-color: #3368A0;
+
+    color: white;
+
+    padding: 25px 20px;
+
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #C8DFDB;
+
+    font-weight: 500;
+
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   RESPONSIVE UNTUK HP
+   ========================= */
+
+@media (max-width: 600px) {
+
+    .hero {
+        padding: 40px 15px;
+    }
+
+    .profile-img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    .bio {
+        font-size: 14px;
+    }
+
+    .about {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .about h2 {
+        font-size: 24px;
+    }
+
+    .portfolio {
+        padding: 20px 15px;
+    }
+
+    .portfolio h2 {
+        font-size: 24px;
+    }
+
+    .portfolio-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 100%;
+        flex: 1 1 auto;
+    }
+
+}
