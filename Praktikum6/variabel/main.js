@@ -7,7 +7,7 @@
 //console.log(mhs2);
 
 //const mhs3 = "Budi";
-//mhs3 = "Asep";
+//mhs3 = "Budi";
 //console.log(mhs3);
 
 var mhs1 = "Budi";
