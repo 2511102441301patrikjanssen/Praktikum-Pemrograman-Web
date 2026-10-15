@@ -3,7 +3,7 @@
 //console.log(mhs1);
 
 //let mhs2 = "janssen";
-//mhs2 = "Ucup";
+//mhs2 = "jans";
 //console.log(mhs2);
 
 //const mhs3 = "Budi";
