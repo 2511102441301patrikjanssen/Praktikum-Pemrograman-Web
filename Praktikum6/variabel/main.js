@@ -19,3 +19,11 @@ var mhs1 = "Budi";
 
 console.log (mhs1);
 
+/prilaku let
+
+let mhs2 = "Cep"
+{
+    let mhs2 = "Yo"
+    console.log (mhs2)
+}
+console.log (mhs2);
