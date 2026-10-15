@@ -18,3 +18,4 @@ var mhs1 = "Budi";
 }
 
 console.log (mhs1);
+
