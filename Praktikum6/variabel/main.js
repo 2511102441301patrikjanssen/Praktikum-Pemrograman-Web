@@ -2,7 +2,7 @@
 //mhs1 = "pat";
 //console.log(mhs1);
 
-//let mhs2 = "Asep";
+//let mhs2 = "janssen";
 //mhs2 = "Ucup";
 //console.log(mhs2);
 
