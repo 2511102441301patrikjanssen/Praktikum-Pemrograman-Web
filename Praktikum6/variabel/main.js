@@ -26,7 +26,7 @@ console.log(mhs1);
 // perilaku let
 let mhs2 = "janssen";
 
-// perilaku 
+// perilaku let
 {
     let mhs2 = "jans";
     console.log(mhs2);
