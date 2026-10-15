@@ -13,7 +13,7 @@
 var mhs1 = "patrik";
 
 {
-    var mhs1 = "Sep";
+    var mhs1 = "pat";
     console.log (mhs1);
 }
 
