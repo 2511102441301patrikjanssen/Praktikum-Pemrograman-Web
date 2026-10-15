@@ -19,7 +19,7 @@ var mhs1 = "Budi";
 
 console.log (mhs1);
 
-/ prilaku let
+// prilaku let
 
 let mhs2 = "Cep"
 {
