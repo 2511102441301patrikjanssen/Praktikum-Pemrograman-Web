@@ -1,5 +1,5 @@
 //var mhs1 = "patrik";
-//mhs1 = "Rab";
+//mhs1 = "pat";
 //console.log(mhs1);
 
 //let mhs2 = "Asep";
