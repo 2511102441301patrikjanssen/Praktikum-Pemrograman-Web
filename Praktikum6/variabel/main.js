@@ -10,7 +10,7 @@
 //mhs3 = "Budi";
 //console.log(mhs3);
 
-var mhs1 = "Budi";
+var mhs1 = "patrik";
 
 {
     var mhs1 = "Sep";
