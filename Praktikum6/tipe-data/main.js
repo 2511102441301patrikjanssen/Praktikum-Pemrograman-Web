@@ -3,7 +3,7 @@ let x = 10.5;
 console.log(x);
 console.log(typeof x);
 
-let nama = "doni";
+let nama = "patrik";
 console.log(nama);
 console.log(typeof nama);
 
