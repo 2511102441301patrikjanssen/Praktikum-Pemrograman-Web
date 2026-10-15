@@ -1,4 +1,4 @@
-//var mhs1 = "Abdul Khair";
+//var mhs1 = "Patrik";
 //mhs1 = "Rab";
 //console.log(mhs1);
 
