@@ -9,4 +9,4 @@ let nilaiFloat = 10.790;
 console.log(parseFloat(nilaiFloat));
 
 let umur = 20;
-console.log parse(umur);
+console.log parseInt(umur);
