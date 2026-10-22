@@ -14,3 +14,4 @@ console.log(namaLengkap);
 // indexOF
 console.log(dataMhs.indexOf(`m`))
 
+// 
