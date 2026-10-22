@@ -17,3 +17,5 @@ console.log(dataMhs.indexOf('m'));
 // substring
 console.log(dataMhs.substring(5, 15));
 console.log(dataMhs.substring(15, 5));
+
+//
