@@ -15,4 +15,4 @@ console.log(namaLengkap);
 console.log(dataMhs.indexOf(`m`))
 
 // substring
-// console
+// console.log(dataMhs.substring(7, 17));
