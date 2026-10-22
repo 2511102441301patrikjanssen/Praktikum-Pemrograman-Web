@@ -7,4 +7,4 @@ console.log(nilai2);
 console.log parseInt(nilaiInt)
 
 let nilaiFloat = 10.790;
-console
+console.log parseFloat(nilaiFloat);
