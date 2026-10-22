@@ -1,3 +1,3 @@
 let nilai = 10;
 consolo.log(nilai);
-c
+console.log(typeof nilai);
