@@ -16,3 +16,4 @@ console.log(dataMhs.indexOf(`m`))
 
 // substring
 // console.log(dataMhs.substring(5, 12));
+
