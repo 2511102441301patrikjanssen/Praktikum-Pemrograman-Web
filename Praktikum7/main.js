@@ -8,8 +8,12 @@ console.log(dataMhs2);
 // string literal
 let nama = "Patrik";
 let nim = 2511102441301;
-let prodi = "Teknik Informatika";
+let prodi = "teknik informatika";
 
 let biodata = nama + " " + nim + " " + prodi;
 console.log(biodata);
 console.log(typeof biodata);
+
+// template string literal
+let biodataLengkap = `mahasiswa dengan ${nama} dan ${nim}`;
+console.log(biodataLengkap);
