@@ -1,2 +1,2 @@
 let nilai = 10;
-consolo
+consolo.log(nilai);
