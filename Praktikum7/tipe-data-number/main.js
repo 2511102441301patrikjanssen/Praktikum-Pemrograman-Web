@@ -3,8 +3,8 @@ consolo.log(nilai);
 console.log(typeof nilai);
 
 let nilaiInt = 10.78;
-console.log(nilai2);
-console.log parseInt(nilaiInt)
+console.log(nilaiInt);
+console.log(parseInt(nilaiInt));
 
 let nilaiFloat = 10.790;
 console.log parseFloat(nilaiFloat);
