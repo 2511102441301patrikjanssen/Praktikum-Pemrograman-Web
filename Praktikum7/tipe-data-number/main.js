@@ -1,1 +1,1 @@
-let nilai 
+let nilai = 10;
