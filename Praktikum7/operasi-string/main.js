@@ -12,3 +12,4 @@ let namaLengkap = namaDepan.concat(" ", namaBelakang);
 console.log(namaLengkap);
 
 // indexOF
+console log
