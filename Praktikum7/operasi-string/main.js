@@ -20,4 +20,4 @@ console.log(dataMhs.substring(15, 5));
 
 // slice
 console.log(dataMhs.slice(5, 15));
-console.log(dataMhs.slice(15, 5));  // data
+console.log(dataMhs.slice(15, 5));  //
