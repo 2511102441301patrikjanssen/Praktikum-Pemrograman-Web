@@ -15,3 +15,4 @@ console.log(namaLengkap);
 console.log(dataMhs.indexOf(`m`))
 
 // substring
+// console
