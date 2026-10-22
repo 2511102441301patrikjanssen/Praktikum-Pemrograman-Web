@@ -27,3 +27,7 @@ let ubahData = dataMhs.replace("Patrik", "Janssen");
 console.log(ubahData);
 
 // toLowerCase
+console.log(dataMhs.toLowerCase());
+
+// toUpperCase
+console.log(dataMhs.toUpperCase());
