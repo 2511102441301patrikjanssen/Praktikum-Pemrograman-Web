@@ -10,3 +10,4 @@ let namaDepan = "Patrik";
 let namaBelakang = "Janssen";
 let namaLengkap = namaDepan.concat(" ", namaBelakang);
 console.log(namaLengkap);
+
