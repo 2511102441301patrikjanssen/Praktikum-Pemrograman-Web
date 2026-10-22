@@ -29,5 +29,5 @@ console.log(ubahData);
 // toLowerCase
 console.log(dataMhs.toLowerCase());
 
-// toUpperCase
+// upperCase
 console.log(dataMhs.toUpperCase());
