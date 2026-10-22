@@ -26,4 +26,4 @@ console.log(dataMhs.slice(15, 5)); // data kosong
 let ubahData = dataMhs.replace("Patrik", "Janssen");
 console.log(ubahData);
 
-// 
+// tol
