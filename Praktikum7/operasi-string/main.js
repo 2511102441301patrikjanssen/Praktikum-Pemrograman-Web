@@ -18,4 +18,4 @@ console.log(dataMhs.indexOf('m'));
 console.log(dataMhs.substring(5, 15));
 console.log(dataMhs.substring(15, 5));
 
-//
+// slice
