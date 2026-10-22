@@ -4,4 +4,4 @@ console.log(typeof nilai);
 
 let nilaiInt = 10.78;
 console.log(nilai2);
-console.log parseInt(nilaiInt));
+console.log parseInt(nilaiInt)
