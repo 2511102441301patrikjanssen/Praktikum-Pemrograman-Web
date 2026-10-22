@@ -11,9 +11,9 @@ let namaBelakang = "Janssen";
 let namaLengkap = namaDepan.concat(" ", namaBelakang);
 console.log(namaLengkap);
 
-// indexOF
-console.log(dataMhs.indexOf(`m`))
+// indexOf
+console.log(dataMhs.indexOf('m'));
 
 // substring
-// console.log(dataMhs.substring(5, 12));
-console.log(dataMhs.substring(5));
+console.log(dataMhs.substring(5, 15));
+console.log(dataMhs.substring(15, 5));
