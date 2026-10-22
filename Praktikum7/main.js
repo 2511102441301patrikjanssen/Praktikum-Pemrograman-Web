@@ -15,5 +15,5 @@ console.log(biodata);
 console.log(typeof biodata);
 
 // template string literal
-let biodataLengkap = `mahasiswa dengan ${nama} dan ${nim}`;
+let biodataLengkap = `mahasiswa dengan ${nama} dan ${nim} program studi ${prodi}`;
 console.log(biodataLengkap);
