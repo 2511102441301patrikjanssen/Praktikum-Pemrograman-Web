@@ -24,6 +24,16 @@ console.log(hasil);
 hasil = y % x;
 console.log(hasil);
 
+
 // operator logika
 
-// AND (&&) 
+// AND (&&) => jika dua nilai bernilai true
+x = true;
+y = false;
+
+hasil = x && y;
+console.log(hasil);
+
+// OR (||) => jika salah satu nilai bernilai true
+hasil = x || y;
+console.log(hasil);
