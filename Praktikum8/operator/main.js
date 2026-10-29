@@ -26,4 +26,4 @@ console.log(hasil);
 
 // operator logika
 
-// AND (&&)
+// AND (&&) 
