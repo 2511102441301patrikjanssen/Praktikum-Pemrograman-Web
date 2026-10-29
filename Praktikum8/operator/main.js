@@ -24,4 +24,4 @@ console.log(hasil);
 hasil = y % x;
 console.log(hasil);
 
-//
+// operator logika
