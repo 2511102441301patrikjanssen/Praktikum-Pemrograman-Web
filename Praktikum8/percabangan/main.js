@@ -21,3 +21,16 @@ if (x != 10) {
 } else {
     console.log("nilai tidak ditemukan!");
 }
+
+// switch-case
+switch (x) {
+    case 10:
+        console.log(`nilai x adalah ${x}`);
+        break;
+    case 20:
+        console.log(`nilai x adalah ${x}`);
+        break;
+    default:
+        console.log("nilai tidak ditemukan!");
+        break;
+}
