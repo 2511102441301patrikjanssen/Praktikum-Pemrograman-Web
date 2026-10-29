@@ -37,3 +37,4 @@ console.log(hasil);
 // OR (||) => jika salah satu nilai bernilai true
 hasil = x || y;
 console.log(hasil);
+
