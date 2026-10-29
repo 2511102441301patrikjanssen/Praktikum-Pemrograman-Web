@@ -38,3 +38,29 @@ console.log(hasil);
 hasil = x || y;
 console.log(hasil);
 
+
+// operator perbandingan
+
+// sama dengan (==)
+hasil = (x == y);
+console.log(hasil);
+
+// tidak sama dengan (!=)
+hasil = (x != y);
+console.log(hasil);
+
+// lebih besar (>)
+hasil = (x > y);
+console.log(hasil);
+
+// kurang dari (<)
+hasil = (x < y);
+console.log(hasil);
+
+// lebih besar dari sama dengan (>=)
+hasil = (x >= y);
+console.log(hasil);
+
+// kurang dari sama dengan (<=)
+hasil = (x <= y);
+console.log(hasil);
