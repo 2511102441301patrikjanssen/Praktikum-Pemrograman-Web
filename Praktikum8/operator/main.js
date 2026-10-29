@@ -25,3 +25,5 @@ hasil = y % x;
 console.log(hasil);
 
 // operator logika
+
+// AND
