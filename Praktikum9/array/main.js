@@ -22,6 +22,11 @@ console.log(dataMhs);
 dataMhs.pop();
 console.log(dataMhs);
 
+// shift => menghapus data pertama dari array
+dataMhs.shift();
+console.log(dataMhs);
+
+
 // unshift => menambahkan data di awal array
 dataMhs.unshift("Dewi");
 console.log(dataMhs);
