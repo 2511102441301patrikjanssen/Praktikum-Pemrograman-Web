@@ -36,7 +36,7 @@ console.log(dataMhs);
 dataMhs.splice(2, 1);
 console.log(dataMhs);
 
-// slice => menyalin data array
+// slice => mengambil data array
 let dataMhs2 = dataMhs.slice(1, 3);
 console.log(dataMhs2);
 
