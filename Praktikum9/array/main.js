@@ -31,3 +31,5 @@ dataMhs.unshift("Dewi");
 console.log(dataMhs);
 
 // splice => menghapus data di tengah array
+dataMhs.splice(2, 1);
+console.log(dataMhs);
