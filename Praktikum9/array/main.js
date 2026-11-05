@@ -4,3 +4,4 @@ let dataMhs = ["Budi", "Siti", "Joko", "Tono", "Rina"];
 console.log(dataMhs); 
 
 // menampilkan data array berdasarkan index
+console.log(dataMhs[0]);
