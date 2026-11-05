@@ -39,3 +39,4 @@ console.log(dataMhs);
 // slice => menyalin data array
 let dataMhs2 = dataMhs.slice(1, 3);
 console.log(dataMhs2);
+
