@@ -1,3 +1,4 @@
+
 // array => objek yang digunakan untuk menyimpan banyak data dalam satu variabel
 
 let dataMhs = ["Budi", "Siti", "Joko", "Ani", "Rina"];
@@ -13,7 +14,7 @@ console.log(dataMhs[5]);
 
 // fungsi/method array
 
-// length => untuk mengetahui jumlah data array
+// length => untuk mengetahui jumlah data dalam array
 console.log(dataMhs.length);
 
 // push => menambahkan data ke dalam array
@@ -36,15 +37,6 @@ console.log(dataMhs);
 dataMhs.splice(2, 1);
 console.log(dataMhs);
 
-// splice => menambahkan data di tengah array
-dataMhs.splice(2, 0, "Joko");
-console.log(dataMhs);
-
-// slice => mengambil sebagian data array
-let dataMhs2 = dataMhs.slice(1, 4);
+// slice => menyalin data array
+let dataMhs2 = dataMhs.slice(1, 3);
 console.log(dataMhs2);
-
-// forEach => perulangan untuk menampilkan semua data array
-dataMhs.forEach(function (mhs) {
-  console.log(mhs);
-});    
