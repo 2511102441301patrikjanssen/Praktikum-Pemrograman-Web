@@ -44,4 +44,4 @@ console.log(dataMhs2);
 let dataMhs3 = dataMhs.join(" - ");
 console.log(dataMhs3);
 
-//
+// concat => menggabungkan dua array
