@@ -49,3 +49,5 @@ let dataMhs4 = dataMhs.concat(["Budi", "Rina"]);
 console.log(dataMhs4);
 
 // sort => mengurutkan data array
+let dataMhs5 = dataMhs.sort();
+console.log(dataMhs5);
