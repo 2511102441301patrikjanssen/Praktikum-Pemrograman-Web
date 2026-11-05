@@ -45,3 +45,5 @@ let dataMhs3 = dataMhs.join(" - ");
 console.log(dataMhs3);
 
 // concat => menggabungkan dua array
+let dataMhs4 = dataMhs.concat(["Dewi", "Rina"]);
+console.log(dataMhs4);
