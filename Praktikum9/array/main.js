@@ -52,6 +52,6 @@ console.log(dataMhs4);
 let dataMhs5 = dataMhs.sort();
 console.log(dataMhs5);
 
-// reverse => membalikkan urutan data array
+// reverse => membalikkan data array
 let dataMhs6 = dataMhs.reverse();
 console.log(dataMhs6);
