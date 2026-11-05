@@ -35,7 +35,7 @@ dataMhs.splice(2, 1);
 console.log(dataMhs);
 
 // splice => menambahkan data di tengah array
-dataMhs.splice(2, 0, "Dewi");
+dataMhs.splice(2, 0, "Joko");
 console.log(dataMhs);
 
 // slice => mengambil sebagian data array
