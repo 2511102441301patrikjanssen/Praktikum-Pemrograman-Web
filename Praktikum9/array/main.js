@@ -48,4 +48,4 @@ console.log(dataMhs3);
 let dataMhs4 = dataMhs.concat(["Budi", "Rina"]);
 console.log(dataMhs4);
 
-
+// sort => mengurutkan data array
