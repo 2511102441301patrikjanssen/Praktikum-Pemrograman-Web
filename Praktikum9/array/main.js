@@ -59,6 +59,3 @@ console.log(dataMhs6);
 // indexOf => mencari index data array
 let index = dataMhs.indexOf("Joko");
 console.log(index);
-
-
-
