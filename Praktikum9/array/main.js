@@ -60,6 +60,5 @@ console.log(dataMhs6);
 let index = dataMhs.indexOf("Joko");
 console.log(index);
 
-//
 
 
