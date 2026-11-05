@@ -22,7 +22,7 @@ console.log(dataMhs);
 dataMhs.pop();
 console.log(dataMhs);
 
-// shift => menghapus data pertama dari array
+// shift => menghapus data pertama dalam array
 dataMhs.shift();
 console.log(dataMhs);
 
