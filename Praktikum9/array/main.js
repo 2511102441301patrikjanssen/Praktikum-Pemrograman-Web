@@ -1,3 +1,3 @@
 // array =>
 
-let dataMhs = ["Budi"
+let dataMhs = ["Budi", "Siti", "Joko", "Tono", "Rina"];
