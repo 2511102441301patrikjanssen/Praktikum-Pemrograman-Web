@@ -15,3 +15,4 @@ console.log(dataMhs[5]);
 console.log(dataMhs.length);
 
 // push => menambahkan data ke dalam array
+querySelector("#btnTambah").addEventListener("click", function () 
