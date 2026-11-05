@@ -55,3 +55,5 @@ console.log(dataMhs5);
 // reverse => membalikkan data array
 let dataMhs6 = dataMhs.reverse();
 console.log(dataMhs6);
+
+
