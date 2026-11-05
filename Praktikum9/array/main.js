@@ -30,4 +30,4 @@ console.log(dataMhs);
 dataMhs.unshift("Dewi");
 console.log(dataMhs);
 
-//
+// splice => menghapus data di tengah array
