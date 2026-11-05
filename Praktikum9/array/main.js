@@ -11,4 +11,4 @@ console.log(dataMhs[3]);
 console.log(dataMhs[4]);
 console.log(dataMhs[5]);
 
-// leng
+// length => untuk mengetahui jumlah data dalam array
