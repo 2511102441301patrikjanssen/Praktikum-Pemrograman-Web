@@ -13,3 +13,13 @@ console.log(dataMhs[5]);
 
 // length => untuk mengetahui jumlah data dalam array
 console.log(dataMhs.length);
+
+// menampilkan data array menggunakan perulangan for
+for (let i = 0; i < dataMhs.length; i++) {
+    console.log(dataMhs[i]);
+}
+
+// menampilkan data array menggunakan perulangan for of
+for (let mhs of dataMhs) {
+    console.log(mhs);
+}
