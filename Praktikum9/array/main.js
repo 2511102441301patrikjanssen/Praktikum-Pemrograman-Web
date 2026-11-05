@@ -40,4 +40,4 @@ console.log(dataMhs);
 let dataMhs2 = dataMhs.slice(1, 3);
 console.log(dataMhs2);
 
-// 
+// join
