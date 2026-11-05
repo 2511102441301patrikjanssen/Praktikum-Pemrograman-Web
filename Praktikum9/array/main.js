@@ -47,3 +47,5 @@ console.log(dataMhs3);
 // concat => menggabungkan dua array
 let dataMhs4 = dataMhs.concat(["Budi", "Rina"]);
 console.log(dataMhs4);
+
+
