@@ -2,27 +2,46 @@
 // array untuk menyimpan data mahasiswa
 let dataMhs = [];
 
-// fungsi untuk menambahkan data mahasiswa
-function tambahDataMhs(nama, nim, jurusan) {
-    const mhs = {
-        nama: nama,
-        nim: nim,
-        jurusan: jurusan
-    };
-    dataMhs.push(mhs);
-}
+// fungsi menampilkan data
+function tampilData() {
+    let daftar = document.getElementById("daftar");
+    daftar.innerHTML = "";
 
-// fungsi untuk menampilkan data mahasiswa                          
-function tampilkanDataMhs() {
-    console.log("Data Mahasiswa:");
-    dataMhs.forEach((mhs, index) => {
-        console.log(`${index + 1}. Nama: ${mhs.nama}, NIM: ${mhs.nim}, Jurusan: ${mhs.jurusan}`);
+    dataMhs.forEach(function(nama, index) {
+        let li = document.createElement("li");
+        li.textContent = nama + " ";
+
+        let tombol = document.createElement("button");
+        tombol.textContent = "Hapus";
+        tombol.onclick = function() {
+            hapusData(index);
+        };
+
+        li.appendChild(tombol);
+        daftar.appendChild(li);
     });
 }
 
-// contoh penggunaan
-tambahDataMhs("Budi", "123456", "Teknik Informatika");
-tambahDataMhs("Siti", "654321", "Sistem Informasi");
-tampilkanDataMhs();
+// fungsi menambahkan data
+function tambahData() {
+    let nama = document.getElementById("nama").value.trim();
 
-// output:  
+    if (nama === "") {
+        alert("Nama tidak boleh kosong!");
+        return;
+    }
+
+    dataMhs.push(nama);
+
+    document.getElementById("nama").value = "";
+    tampilData();
+}
+
+// fungsi menghapus data
+function hapusData(index) {
+    dataMhs.splice(index, 1);
+    tampilData();
+}
+
+// menampilkan data awal
+tampilData();
