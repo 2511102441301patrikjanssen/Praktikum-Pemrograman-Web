@@ -1,8 +1,7 @@
-
 // array untuk menyimpan data mahasiswa
 let dataMhs = [];
 
-// fungsi menampilkan data
+// fungsi untuk menampilkan data
 function tampilData() {
     let daftar = document.getElementById("daftar");
     daftar.innerHTML = "";
@@ -13,6 +12,7 @@ function tampilData() {
 
         let tombol = document.createElement("button");
         tombol.textContent = "Hapus";
+
         tombol.onclick = function() {
             hapusData(index);
         };
@@ -22,12 +22,12 @@ function tampilData() {
     });
 }
 
-// fungsi menambahkan data
+// fungsi untuk menambahkan data
 function tambahData() {
     let nama = document.getElementById("nama").value.trim();
 
     if (nama === "") {
-        alert("Nama tidak boleh kosong!");
+        alert("Data tidak boleh kosong!");
         return;
     }
 
@@ -37,7 +37,7 @@ function tambahData() {
     tampilData();
 }
 
-// fungsi menghapus data
+// fungsi untuk menghapus data
 function hapusData(index) {
     dataMhs.splice(index, 1);
     tampilData();
