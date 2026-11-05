@@ -13,5 +13,14 @@ function tambahDataMhs(nama, nim, jurusan) {
 }
 
 // fungsi untuk menampilkan data mahasiswa                          
-function tampilkanDataMhs() {              
-    
+function tampilkanDataMhs() {
+    console.log("Data Mahasiswa:");
+    dataMhs.forEach((mhs, index) => {
+        console.log(`${index + 1}. Nama: ${mhs.nama}, NIM: ${mhs.nim}, Jurusan: ${mhs.jurusan}`);
+    });
+}
+
+// contoh penggunaan
+tambahDataMhs("Budi", "123456", "Teknik Informatika");
+tambahDataMhs("Siti", "654321", "Sistem Informasi");
+tampilkanDataMhs(); 
