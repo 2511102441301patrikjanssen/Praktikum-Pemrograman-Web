@@ -43,3 +43,5 @@ console.log(dataMhs2);
 // join => menggabungkan data array menjadi string
 let dataMhs3 = dataMhs.join(" - ");
 console.log(dataMhs3);
+
+//
