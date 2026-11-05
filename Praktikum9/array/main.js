@@ -28,4 +28,4 @@ console.log(dataMhs);
 
 // shift => menghapus data pertama dari array
 dataMhs.shift();
-console.log(dataMhs);   
+console.log(dataMhs);
