@@ -6,3 +6,6 @@ console.log(dataMhs);
 // menampilkan data array berdasarkan index
 console.log(dataMhs[0]);
 console.log(dataMhs[1]);
+console.log(dataMhs[2]);
+console.log(dataMhs[3]);
+console.log(dataMhs[4]);
