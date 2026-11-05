@@ -18,7 +18,7 @@ console.log(dataMhs.length);
 dataMhs.push("Dewi");
 console.log(dataMhs);
 
-// pop => menghapus data terakhir dari array
+// pop => menghapus data terakhir dalam array
 dataMhs.pop();
 console.log(dataMhs);
 
