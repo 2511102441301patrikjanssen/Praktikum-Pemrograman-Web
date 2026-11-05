@@ -56,4 +56,4 @@ console.log(dataMhs5);
 let dataMhs6 = dataMhs.reverse();
 console.log(dataMhs6);
 
-// forEach => menampilkan data array menggunakan perulanga
+// 
