@@ -1,3 +1,3 @@
 // array =>
 
-let dataMhs 
+let dataMhs = [
