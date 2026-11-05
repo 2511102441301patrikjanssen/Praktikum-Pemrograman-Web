@@ -23,4 +23,5 @@ function tampilkanDataMhs() {
 // contoh penggunaan
 tambahDataMhs("Budi", "123456", "Teknik Informatika");
 tambahDataMhs("Siti", "654321", "Sistem Informasi");
-tampilkanDataMhs(); 
+tampilkanDataMhs();
+
