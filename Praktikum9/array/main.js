@@ -1,3 +1,4 @@
+
 // array => objek yang digunakan untuk menyimpan banyak data dalam satu variabel
 
 let dataMhs = ["Budi", "Siti", "Joko", "Ani", "Rina"];
@@ -41,9 +42,9 @@ let dataMhs2 = dataMhs.slice(1, 3);
 console.log(dataMhs2);
 
 // join => menggabungkan data array menjadi string
-let dataMhs3 = dataMhs.join(" - ");
+let dataMhs3 = dataMhs.join(", ");
 console.log(dataMhs3);
 
 // concat => menggabungkan dua array
-let dataMhs4 = dataMhs.concat(["Dewi", "Rina"]);
+let dataMhs4 = dataMhs.concat(["Budi", "Rina"]);
 console.log(dataMhs4);
