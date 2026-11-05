@@ -33,3 +33,16 @@ console.log(dataMhs);
 // splice => menghapus data di tengah array
 dataMhs.splice(2, 1);
 console.log(dataMhs);
+
+// splice => menambahkan data di tengah array
+dataMhs.splice(2, 0, "Dewi");
+console.log(dataMhs);
+
+// slice => mengambil sebagian data array
+let dataMhs2 = dataMhs.slice(1, 4);
+console.log(dataMhs2);
+
+// forEach => perulangan untuk menampilkan semua data array
+dataMhs.forEach(function (mhs) {
+  console.log(mhs);
+});    
