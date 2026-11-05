@@ -16,3 +16,4 @@ console.log(dataMhs.length);
 
 // push => menambahkan data ke dalam array
 dataMhs.push("Dewi");
+console.log(dataMhs);
