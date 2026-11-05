@@ -1,3 +1,4 @@
+
 // array => objek yang digunakan untuk menyimpan banyak data dalam satu variabel
 
 let dataMhs = ["Budi", "Siti", "Joko", "Ani", "Rina"];
@@ -29,4 +30,3 @@ console.log(dataMhs);
 // unshift => menambahkan data di awal array
 dataMhs.unshift("Dewi");
 console.log(dataMhs);
-
