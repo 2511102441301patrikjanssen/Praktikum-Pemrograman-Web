@@ -1,60 +1,50 @@
-// Function
+// function
 
-// Deklarasi Function
+// deklarasi function
+function sayHello(){ // nama function
+    console.log("Hello World!"); // blok program
+}
+sayHello(); // memanggil function
 
-function sayHello() { //nama function
-    console.log("Patrik Ganteng"); //blok program
+// function expression
+const hello = function (){
+    console.log("hello world!");
 }
 
-sayHello(); // Memanggil function
+hello();
 
-// Function Expression
-
-const hello = function() {
-    console.log("Patrik Ganteng");
-};
-
-hello(); // Memanggil function expression
-
-// Arrow Function
-
+// arrow function
 const world = () => {
-    console.log("Patrik Ganteng");
+    console.log("hello world!");
 }
 
-world(); // Memanggil arrow function
+world();
 
-// Function dengan parameter
-
-function mahasiswa(nama) {
-    console.log(`Nama Mahasiswa: ${nama}`);
+// function dengan parameter
+function sapa(nama){
+    console.log("Hello " + nama);
 }
+sapa("Patrik");
 
-mahasiswa("Patrik"); // Memanggil function dengan parameter
-
-// Function dengan return value
-
-function nilai(a, b) {
-    return a + b;
-}
-
-
-console.log(nilai(5, 3)); // Output: 8
-
-// function dengan nilai default
-
-function nilai2(x, y = 10) {
+// function dengan return
+function nilai(x, y){
     return x + y;
 }
 
-const hasil = nilai2(5); // Memanggil function dengan nilai default
-console.log(hasil); // Output: 15
+console.log(nilai(5, 10));
 
-// function dengan rest parameter
+// function dengan nilai default
+function nilai2(x, y = 10){
+    return x + y;
+}
 
-function sum(...nilai) {
+const hasil = nilai2(10);
+console.log(hasil);
+
+// function rest parameter
+function sum(...nilai){
     return nilai.reduce((total, num) => total + num, 0);
 }
 
-const total = sum(1, 2, 3, 4, 5); // Memanggil function dengan rest parameter
-console.log(total); // Output: 15
+const total = sum(1, 2, 3, 4, 5); // multiple argument
+console.log(total);
