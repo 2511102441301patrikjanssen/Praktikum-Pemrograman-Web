@@ -1,4 +1,5 @@
-// function
+
+ // function
 
  // deklarasi function
  function sayHello(){ // nama function
