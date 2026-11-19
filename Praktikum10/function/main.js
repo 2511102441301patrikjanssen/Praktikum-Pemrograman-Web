@@ -1,20 +1,19 @@
+// function
 
- // function
+// deklarasi function
+function sayHello(){ // nama function
+    console.log("Hello World!"); // blok program
+}
+sayHello(); // memanggil function
 
- // deklarasi function
- function sayHello(){ // nama function
-     console.log("Hello World!"); // blok program
- }
- sayHello(); // memanggil function
+// function expression
+const hello = function (){
+    console.log("hello world!");
+}
 
- // function expression
- const hello = function (){
-     console.log("hello world!");
- }
+hello();
 
- hello();
-
- // arrow function
- const world = () => {
-     console.log("hello world!");
- }
+// arrow function
+const world = () => {
+    console.log("hello world!");
+}
