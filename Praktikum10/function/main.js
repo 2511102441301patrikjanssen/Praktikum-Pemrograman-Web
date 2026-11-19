@@ -1,3 +1,4 @@
+
 // function
 
 // deklarasi function
@@ -135,3 +136,17 @@ function Mahasiswa(nama, nim){
 Mahasiswa.prototype.sayHello = function(){
     console.log(`Nama Mahasiswa : ${this.nama}`);
 }
+
+// function dengan class
+class Car{
+    constructor(nama){
+        this.nama = nama;
+    }
+}
+
+Car.prototype.model = function(){
+    console.log(this.nama);
+}
+
+const car1 = new Car("BMW");
+console.log(car1);
