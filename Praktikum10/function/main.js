@@ -1,4 +1,3 @@
-
 // Function
 
 // Deklarasi Function
