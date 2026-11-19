@@ -67,6 +67,6 @@ function outerFunction(outerVariabel){
 }
 
 outerFunction("outside")("inside"); // memanggil outerFunction dan innerFunction
-// innerFunction("inside"); // memanggil innerFunction => error
+innerFunction("inside"); // memanggil innerFunction => error
 
 //
