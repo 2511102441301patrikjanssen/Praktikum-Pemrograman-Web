@@ -1,6 +1,8 @@
-// function
 
-// deklarasi function
+
+ // function
+
+ // deklarasi function
 function sayHello(){ // nama function
     console.log("Hello World!"); // blok program
 }
@@ -43,5 +45,8 @@ console.log(hasil);
 
 // function rest parameter
 function sum(...nilai){
-    return nilai.reduce((total, nil) => total + nil, 0);
+    return nilai.reduce((total, num) => total + num, 0);
 }
+
+const total = sum(1, 2, 3, 4, 5); // multiple argument
+console.log(total);
