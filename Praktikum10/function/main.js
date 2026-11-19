@@ -1,3 +1,5 @@
+
+ 
 // function
 
 // deklarasi function
@@ -87,4 +89,15 @@ function faktorial(n){
 
 console.log(faktorial(5));
 
+// function async/await
+async function fetchData(url){
+    try{
+        const response = await fetch(url);
+        const data = await response.json();
+        return data;
+    }catch(error){
+        console.error('Error fetching data', error);
+    }
+}
 
+fetchData('https://jsonplaceholder.typicode.com/posts');
