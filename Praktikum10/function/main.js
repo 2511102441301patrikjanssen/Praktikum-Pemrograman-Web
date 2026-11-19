@@ -6,4 +6,4 @@ function sayHello(){ // nama function
 }
 sayHello(); // memanggil function
 
-// function e
+// function expression
