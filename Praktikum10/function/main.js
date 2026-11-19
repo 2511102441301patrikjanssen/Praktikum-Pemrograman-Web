@@ -1,3 +1,5 @@
+
+ 
 // function
 
 // deklarasi function
@@ -50,14 +52,14 @@ const total = sum(1, 2, 3, 4, 5); // multiple argument
 console.log(total);
 
 // function dengan callback
-function inputData(callback){
-    const nama = prompt("masukkan nama : ");
-    callback(nama);
-}
+// function inputData(callback){
+//     const nama = prompt("masukkan nama : ");
+//     callback(nama);
+// }
 
-inputData(function(nama){
-    console.log(nama);
-}) // memanggil function dengan callback
+// inputData(function(nama){
+//     console.log(nama);
+// }) // memanggil function dengan callback
 
 // function closure
 function outerFunction(outerVariabel){
@@ -67,3 +69,6 @@ function outerFunction(outerVariabel){
 }
 
 outerFunction("outside")("inside"); // memanggil outerFunction dan innerFunction
+innerFunction("inside"); // memanggil innerFunction => error
+
+//
