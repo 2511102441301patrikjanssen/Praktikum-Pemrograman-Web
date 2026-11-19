@@ -1,1 +1,1 @@
-// array untuk menyimpan data mahasis
+// func
