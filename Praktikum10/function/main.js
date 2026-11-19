@@ -1,3 +1,3 @@
 // function
 
-// de
+// deklarasi function
