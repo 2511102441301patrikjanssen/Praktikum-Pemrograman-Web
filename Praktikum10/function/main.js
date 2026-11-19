@@ -1,3 +1,5 @@
+
+ 
 // function
 
 // deklarasi function
@@ -59,4 +61,11 @@ inputData(function(nama){
     console.log(nama);
 }) // memanggil function dengan callback
 
-//
+// function closure
+function outerFunction(outerVariabel){
+    return function innerFunction(innerVariabel){
+        console.log(outerVariabel, innerVariabel);
+    }
+}
+
+outerFunction("outside")("inside"); // memanggil outerFunction dan innerFunction
