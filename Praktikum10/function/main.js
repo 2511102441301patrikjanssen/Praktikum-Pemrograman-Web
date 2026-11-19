@@ -7,3 +7,4 @@ function sayHello(){ // nama function
 sayHello(); // memanggil function
 
 // function expression
+const
