@@ -1,3 +1,4 @@
+
 // function
 
 // deklarasi function
@@ -113,3 +114,14 @@ const generator = generatorFunction();
 console.log(generator.next().value);
 console.log(generator.next().value);
 console.log(generator.next().value);
+
+// function dengan method
+const mhs = {
+    nama: 'doni',
+
+    dataMhs(){
+        console.log(`Data Mahasiswa : ${this.nama}`);
+    }
+}
+
+mhs.dataMhs();
