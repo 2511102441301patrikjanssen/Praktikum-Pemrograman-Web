@@ -1,3 +1,4 @@
+
 // function
 
 // deklarasi function
@@ -124,3 +125,14 @@ const mhs = {
 }
 
 mhs.dataMhs();
+
+// function dengan constructor
+function Mahasiswa(nama, nim){
+    this.nama = nama;
+    this.nim = nim;
+}
+
+// function dengan prototype
+Mahasiswa.prototype.sayHello = function(){
+    console.log(`Nama Mahasiswa : ${this.nama}`);
+}
