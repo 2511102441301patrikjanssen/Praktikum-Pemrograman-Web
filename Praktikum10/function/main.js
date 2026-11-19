@@ -1,3 +1,5 @@
+
+ 
 // function
 
 // deklarasi function
@@ -98,4 +100,8 @@ async function fetchData(url){
     }
 }
 
-fetchData('https://jsonplaceholder.typicode.com/posts');
+fetchData('https://jsonplaceholder.typicode.com/todos/1')
+    .then(data => console.log(data))
+    .catch(error => console.error(error));
+
+// function
