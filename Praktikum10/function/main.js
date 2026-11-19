@@ -1,3 +1,5 @@
+
+ 
 // function
 
 // deklarasi function
@@ -73,3 +75,16 @@ outerFunction("outside")("inside"); // memanggil outerFunction dan innerFunction
 (function(){
     console.log("menjalankan fungsi immediately");
 })();
+
+// function rekursif
+function faktorial(n){
+
+    // base
+    if(n === 0){
+        return 1;
+    }
+
+    return n * faktorial(n - 1); // memanggil fungsi itu sendiri
+}
+
+console.log(faktorial(5));
