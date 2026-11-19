@@ -1,6 +1,6 @@
-// Funtion
+// Function
 
-// Dekralasi Function
+// Deklarasi Function
 
 function sayHello() { //nama function
     console.log("Patrik Ganteng"); //blok program
@@ -15,14 +15,14 @@ const hello = function() {
 };
 
 hello(); // Memanggil function expression
-    
+
 // Arrow Function
 
-const wolrd = () => {
-    console.log("Patrik Cantik");
+const world = () => {
+    console.log("Patrik Ganteng");
 }
 
-wolrd(); // Memanggil arrow function
+world(); // Memanggil arrow function
 
 // Function dengan parameter
 
@@ -39,7 +39,7 @@ function nilai(a, b) {
 }
 
 
-console.log(nilai(5, 3)); // Output: 8   
+console.log(nilai(5, 3)); // Output: 8
 
 // function dengan nilai default
 
@@ -52,9 +52,9 @@ console.log(hasil); // Output: 15
 
 // function dengan rest parameter
 
-function sulm(...nilai) {
+function sum(...nilai) {
     return nilai.reduce((total, num) => total + num, 0);
 }
 
-const total = sulm(1, 2, 3, 4, 5); // Memanggil function dengan rest parameter
+const total = sum(1, 2, 3, 4, 5); // Memanggil function dengan rest parameter
 console.log(total); // Output: 15
