@@ -116,7 +116,7 @@ console.log(generator.next().value);
 
 // function dengan method
 const mhs = {
-    nama: 'doni',
+    nama: 'Patrik',
 
     dataMhs(){
         console.log(`Data Mahasiswa : ${this.nama}`);
