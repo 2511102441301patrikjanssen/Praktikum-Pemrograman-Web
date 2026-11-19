@@ -1,5 +1,3 @@
-
- 
 // function
 
 // deklarasi function
@@ -23,27 +21,11 @@ const world = () => {
 world();
 
 // function dengan parameter
-function sapa(nama){
-    console.log("Hello " + nama);
-}
-sapa("Patrik");
-
-// function dengan return
-function nilai(x, y){
-    return x + y;
+function mahasiswa(nama){
+    console.log(`Nama Mahasiswa : ${nama}`);
 }
 
-console.log(nilai(5, 10));
+mahasiswa("doni");
 
-// function dengan nilai default
-function nilai2(x, y = 10){
-    return x + y;
-}
 
-const hasil = nilai2(10);
-console.log(hasil);
-
-// function rest parameter
-function sum(...nilai){
-    return nilai.reduce((total, nil) => total + nil, 0);
-}
+// function dengan return value
