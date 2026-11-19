@@ -1,3 +1,4 @@
+
 // function
 
 // deklarasi function
@@ -102,4 +103,14 @@ fetchData('https://jsonplaceholder.typicode.com/todos/1')
     .then(data => console.log(data))
     .catch(error => console.error(error));
 
-// function
+// function dengan generator
+function* generatorFunction(){
+    yield 1;
+    yield 2;
+    yield 3;
+}
+
+const generator = generatorFunction();
+console.log(generator.next().value);
+console.log(generator.next().value);
+console.log(generator.next().value);
