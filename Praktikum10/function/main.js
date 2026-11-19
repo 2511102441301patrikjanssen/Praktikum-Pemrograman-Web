@@ -1,6 +1,8 @@
-// function
 
-// deklarasi function
-function tampilkanPesan() {
-    console.log("Hello, ini adalah pesan dari function!");
-}
+ // function
+
+ // deklarasi function
+ function sayHello(){ // nama function
+     console.log("Hello World!"); // blok program
+ }
+ sayHello(); // memanggil function
