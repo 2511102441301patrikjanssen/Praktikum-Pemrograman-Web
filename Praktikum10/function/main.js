@@ -86,3 +86,5 @@ function faktorial(n){
 }
 
 console.log(faktorial(5));
+
+
