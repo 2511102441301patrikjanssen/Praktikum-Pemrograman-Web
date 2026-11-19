@@ -1,4 +1,3 @@
-
 // Funtion
 
 // Dekralasi Function
