@@ -1,4 +1,5 @@
 
+ 
 // function
 
 // deklarasi function
@@ -46,3 +47,18 @@ console.log(hasil);
 function sum(...nilai){
     return nilai.reduce((total, nil) => total + nil, 0);
 }
+
+const total = sum(1, 2, 3, 4, 5); // multiple argument
+console.log(total);
+
+// function dengan callback
+function inputData(callback){
+    const nama = prompt("masukkan nama : ");
+    callback(nama);
+}
+
+inputData(function(nama){
+    console.log(nama);
+}) // memanggil function dengan callback
+
+//
